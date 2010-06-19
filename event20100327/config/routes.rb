@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connect "events/search", :controller => :events, :action => :search
   map.resources :events
 
   # The priority is based upon order of creation: first created -> highest priority.
