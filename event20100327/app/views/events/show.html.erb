@@ -1,0 +1,28 @@
+<p>
+  <b>Summary:</b>
+  <%=h @event.summary %>
+</p>
+
+<p>
+  <b>Dtstart:</b>
+  <%=h @event.dtstart %>
+</p>
+
+<p>
+  <b>Dtend:</b>
+  <%=h @event.dtend %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%=h @event.location %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @event.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
