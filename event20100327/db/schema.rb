@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100619024544) do
+ActiveRecord::Schema.define(:version => 20100717050710) do
 
   create_table "events", :force => true do |t|
     t.string   "summary"
@@ -17,6 +17,13 @@ ActiveRecord::Schema.define(:version => 20100619024544) do
     t.datetime "dtend"
     t.string   "location"
     t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "nane"
+    t.string   "passward"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

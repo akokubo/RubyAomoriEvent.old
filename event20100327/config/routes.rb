@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :users
+
   map.connect "events/search", :controller => :events, :action => :search
   map.resources :events
 
