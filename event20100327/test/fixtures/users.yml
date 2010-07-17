@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nane: MyString
+  passward: MyString
+
+two:
+  nane: MyString
+  passward: MyString
