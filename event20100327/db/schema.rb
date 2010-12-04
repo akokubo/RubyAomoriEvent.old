@@ -22,8 +22,13 @@ ActiveRecord::Schema.define(:version => 20100717053805) do
   end
 
   create_table "users", :force => true do |t|
+<<<<<<< HEAD
     t.string   "name"
     t.string   "password"
+=======
+    t.string   "nane"
+    t.string   "passward"
+>>>>>>> TakamasaA
     t.datetime "created_at"
     t.datetime "updated_at"
   end
